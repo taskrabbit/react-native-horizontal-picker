@@ -6,7 +6,7 @@
 //  Copyright © 2017 MDL. All rights reserved.
 //
 
-#import <React/RCTViewManager.h>
+#import "RCTViewManager.h"
 
 @interface RNTHorizontalPickerManager : RCTViewManager
 
