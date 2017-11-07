@@ -29,10 +29,12 @@
   self.pickerView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   [self addSubview:self.pickerView];
   
-  self.pickerView.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:60];
-  self.pickerView.highlightedFont = [UIFont fontWithName:@"HelveticaNeue-Bold" size:70];
-  self.pickerView.interitemSpacing = 6.0;
-  self.pickerView.fisheyeFactor = 0.001;
+  self.pickerView.font = [UIFont fontWithName:@"ProximaNovaA-Regular" size:20];
+  self.pickerView.highlightedFont = [UIFont fontWithName:@"ProximaNovaA-Regular" size:40];
+  self.pickerView.textColor = [UIColor colorWithRed:36/255.0 green:42/255.0 blue:48/255.0 alpha:1.0];
+  self.pickerView.highlightedTextColor = [UIColor colorWithRed:36/255.0 green:42/255.0 blue:48/255.0 alpha:1.0];
+  self.pickerView.interitemSpacing = 0.0;
+  self.pickerView.fisheyeFactor = 0;
   self.pickerView.pickerViewStyle = AKPickerViewStyle3D;
   self.pickerView.maskDisabled = false;
   return self;

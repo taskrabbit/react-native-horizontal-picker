@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { requireNativeComponent, Event } from 'react-native';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
