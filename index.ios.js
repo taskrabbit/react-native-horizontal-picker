@@ -52,6 +52,9 @@ HorizontalPicker.defaultProps = {
 HorizontalPicker.propTypes = {
   onChange: PropTypes.func.isRequired,
   selectedIndex: PropTypes.number,
-  style: PropTypes.object,
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+  ]),
   titles: PropTypes.array.isRequired
 };
